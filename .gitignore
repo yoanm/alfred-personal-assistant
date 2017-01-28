@@ -1,2 +1,11 @@
+# NPM
+# module
 node_modules
+# log
 npm-debug.log
+
+# CONFIG
+config
+
+# BUILD
+coverage
