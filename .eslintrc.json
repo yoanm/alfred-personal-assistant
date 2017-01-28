@@ -1,0 +1,22 @@
+{
+  "parserOptions": {
+    "sourceType": "module"
+  },
+  "extends": "google",
+  "rules": {
+    "indent": [2,4, { "SwitchCase": 1 }],
+    "camelcase": ["error"],
+    "max-len": [1, 121],
+    "operator-linebreak": ["error", "before"],
+    "max-nested-callbacks": [1, 5],
+    "valid-jsdoc": ["error", {
+      "requireReturn": false,
+      "requireReturnType": true,
+      "requireReturnDescription": false,
+      "requireParamDescription": false
+    }]
+  },
+  "env": {
+    "node": true
+  }
+}
