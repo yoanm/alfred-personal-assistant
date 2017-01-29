@@ -1,11 +1,14 @@
-# NPM
-# module
+# NPM module
 node_modules
-# log
+
+# LOG
+# Node
 npm-debug.log
+# Server
+log
 
 # CONFIG
-config
+config/local.json
 
 # BUILD
 coverage

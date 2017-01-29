@@ -1,7 +1,15 @@
 {
   "debug": false,
   "logger": {
-    "path": "log"
+    "path": "log",
+    "level": "info"
+  },
+  "sarah": {
+    "client": {
+      "scheme": "http",
+      "host": "127.0.0.1",
+      "port": 8888
+    }
   },
   "server": {
     "host": "localhost",
