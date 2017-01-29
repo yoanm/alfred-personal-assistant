@@ -40,9 +40,7 @@ const cleanAndExit = (exitCode = 0) => {
         if (arg instanceof Error) {
             exitCode = 1;
         }
-        logger.stopping('Alfred');
         return alfred.sleep()
-            .then(() => logger.stopped('Alfred'));
     };
     const updateCleanState = arg => {
         if (arg instanceof Error) {
